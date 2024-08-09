@@ -29,3 +29,15 @@ para prepar el archivo para una foto hacemos git
 git add . 
 hacemos la fotografia (-m para mensaje)
 git commi -m "primer commit"
+para recuperar algun archivo dañado u otra coas utlizamos
+git checkout --.
+
+subir mi repositorio a git
+git remote add origin https://github.com/IsaacC00/react-gifExpert.git
+git branch -M main
+git push -u origin main
+
+para guardar los cambios 
+git add .
+git commi -m "mesaje con estandar"
+git push
